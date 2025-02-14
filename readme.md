@@ -21,7 +21,6 @@ Creating A Blog In Django has interactive UI design using which users can see wh
 
 ![1](PREVIEW/IMG1.png)
 ![2](PREVIEW/IMG2.png)
-![3](PREVIEW/IMG3.png)
 ![4](PREVIEW/IMG4.png)
 ![5](PREVIEW/IMG5.png)
 <br>
@@ -38,6 +37,19 @@ Creating A Blog In Django has interactive UI design using which users can see wh
 
 
 ## 🚀 Setup/Installation Requirements
+1.Create virtual environment <br>
+python -m venv env  <br>
+2.Activate virtual environment  <br>
+env/Scripts/activate   <br>
+3.Requirements <br>
+pip install -r requirements.txt  <br>
+4.Database server  <br>
+python manage.py makemigrations  <br>
+python manage.py migrate <br>
+<br>
+Run the project <br>
+python manage.py runserver<br>
+
 
 To view the website, 
 * click [Python Django Blog Website](https://github.com/prodip36/Python-Django-Blog-Website-main)
